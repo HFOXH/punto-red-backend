@@ -18,7 +18,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/transaction")
-@CrossOrigin(origins = "https://punto-red-backend-production.up.railway.app/")
+@CrossOrigin(origins = "https://solucionpruebapuntoredsc.netlify.app")
 @AllArgsConstructor
 public class TransactionController {
     private final PuntoRedService puntoRedService;
