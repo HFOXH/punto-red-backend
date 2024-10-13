@@ -18,7 +18,7 @@ import java.util.UUID;
 
 @RestController
 @RequestMapping("/transaction")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://punto-red-backend-production.up.railway.app/")
 @AllArgsConstructor
 public class TransactionController {
     private final PuntoRedService puntoRedService;
